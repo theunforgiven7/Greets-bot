@@ -6,7 +6,7 @@ from datetime import datetime
 
 TOKEN = config("TOKEN")
 TOKEN = '7060816343:AAFzz0hHHcDxkIFN1v8CWCVF5JHqZxE7FUg'
-dp = Dispatcher() # объект диспетчера (оброботчик событий)
+dp = Dispatcher() 
 bot = Bot(TOKEN)
 
 @dp.message(Command("time"))
